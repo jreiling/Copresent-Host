@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BF1453225AE73DF006F606D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1453125AE73DF006F606D /* AppDelegate.swift */; };
+		6BF1453425AE73DF006F606D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1453325AE73DF006F606D /* ViewController.swift */; };
+		6BF1453625AE73E3006F606D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF1453525AE73E3006F606D /* Assets.xcassets */; };
+		6BF1453925AE73E3006F606D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF1453725AE73E3006F606D /* Main.storyboard */; };
+		6BF1454D25AFC682006F606D /* keynote-next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 6BF1454B25AFC682006F606D /* keynote-next.scpt */; };
+		6BF1455125AFC6FA006F606D /* keynote-prev.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 6BF1455025AFC6FA006F606D /* keynote-prev.scpt */; };
+		6BF1455825AFEBF5006F606D /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 6BF1455725AFEBF5006F606D /* SocketIO */; };
+		6BF1455C25AFECE7006F606D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6BF1455B25AFECE7006F606D /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B9D0C4625D20C6E0077C5A1 /* ServerConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ServerConfig.xcconfig; sourceTree = "<group>"; };
+		6BF1452E25AE73DF006F606D /* Copresent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Copresent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF1453125AE73DF006F606D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BF1453325AE73DF006F606D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BF1453525AE73E3006F606D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BF1453825AE73E3006F606D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BF1453A25AE73E3006F606D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF1453B25AE73E3006F606D /* Copresent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Copresent.entitlements; sourceTree = "<group>"; };
+		6BF1454B25AFC682006F606D /* keynote-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "keynote-next.scpt"; sourceTree = "<group>"; };
+		6BF1455025AFC6FA006F606D /* keynote-prev.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "keynote-prev.scpt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF1452B25AE73DF006F606D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF1455825AFEBF5006F606D /* SocketIO in Frameworks */,
+				6BF1455C25AFECE7006F606D /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF1452525AE73DE006F606D = {
+			isa = PBXGroup;
+			children = (
+				6BF1453025AE73DF006F606D /* Copresent */,
+				6BF1452F25AE73DF006F606D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF1452F25AE73DF006F606D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF1452E25AE73DF006F606D /* Copresent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF1453025AE73DF006F606D /* Copresent */ = {
+			isa = PBXGroup;
+			children = (
+				6BF1454A25AFC682006F606D /* Scripts */,
+				6BF1453125AE73DF006F606D /* AppDelegate.swift */,
+				6BF1453325AE73DF006F606D /* ViewController.swift */,
+				6B9D0C4625D20C6E0077C5A1 /* ServerConfig.xcconfig */,
+				6BF1453525AE73E3006F606D /* Assets.xcassets */,
+				6BF1453725AE73E3006F606D /* Main.storyboard */,
+				6BF1453A25AE73E3006F606D /* Info.plist */,
+				6BF1453B25AE73E3006F606D /* Copresent.entitlements */,
+			);
+			path = Copresent;
+			sourceTree = "<group>";
+		};
+		6BF1454A25AFC682006F606D /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				6BF1454B25AFC682006F606D /* keynote-next.scpt */,
+				6BF1455025AFC6FA006F606D /* keynote-prev.scpt */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF1452D25AE73DF006F606D /* Copresent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF1453E25AE73E3006F606D /* Build configuration list for PBXNativeTarget "Copresent" */;
+			buildPhases = (
+				6BF1452A25AE73DF006F606D /* Sources */,
+				6BF1452B25AE73DF006F606D /* Frameworks */,
+				6BF1452C25AE73DF006F606D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Copresent;
+			packageProductDependencies = (
+				6BF1455725AFEBF5006F606D /* SocketIO */,
+				6BF1455B25AFECE7006F606D /* Alamofire */,
+			);
+			productName = Copresent;
+			productReference = 6BF1452E25AE73DF006F606D /* Copresent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF1452625AE73DE006F606D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6BF1452D25AE73DF006F606D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 6BF1452925AE73DE006F606D /* Build configuration list for PBXProject "Copresent-Host" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BF1452525AE73DE006F606D;
+			packageReferences = (
+				6BF1455625AFEBF5006F606D /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
+				6BF1455A25AFECE7006F606D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 6BF1452F25AE73DF006F606D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF1452D25AE73DF006F606D /* Copresent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF1452C25AE73DF006F606D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF1455125AFC6FA006F606D /* keynote-prev.scpt in Resources */,
+				6BF1453625AE73E3006F606D /* Assets.xcassets in Resources */,
+				6BF1453925AE73E3006F606D /* Main.storyboard in Resources */,
+				6BF1454D25AFC682006F606D /* keynote-next.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF1452A25AE73DF006F606D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF1453425AE73DF006F606D /* ViewController.swift in Sources */,
+				6BF1453225AE73DF006F606D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BF1453725AE73E3006F606D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF1453825AE73E3006F606D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BF1453C25AE73E3006F606D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9D0C4625D20C6E0077C5A1 /* ServerConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BF1453D25AE73E3006F606D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9D0C4625D20C6E0077C5A1 /* ServerConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6BF1453F25AE73E3006F606D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Copresent/Copresent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 944G3SL5X4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Copresent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reiling.Copresent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6BF1454025AE73E3006F606D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Copresent/Copresent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 944G3SL5X4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Copresent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reiling.Copresent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF1452925AE73DE006F606D /* Build configuration list for PBXProject "Copresent-Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF1453C25AE73E3006F606D /* Debug */,
+				6BF1453D25AE73E3006F606D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF1453E25AE73E3006F606D /* Build configuration list for PBXNativeTarget "Copresent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF1453F25AE73E3006F606D /* Debug */,
+				6BF1454025AE73E3006F606D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6BF1455625AFEBF5006F606D /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.2.0;
+			};
+		};
+		6BF1455A25AFECE7006F606D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6BF1455725AFEBF5006F606D /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BF1455625AFEBF5006F606D /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
+			productName = SocketIO;
+		};
+		6BF1455B25AFECE7006F606D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BF1455A25AFECE7006F606D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6BF1452625AE73DE006F606D /* Project object */;
+}
