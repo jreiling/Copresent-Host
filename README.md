@@ -1,5 +1,5 @@
 # Copresent
-A simple macOS utility to allows anyone with a secure link to drive Keynote slides.
+A macOS utility that ensures you never have to hear “Next slide, please” again.
 
 ![Screenshot](docs/images/copresent-screenshot.png)
 
