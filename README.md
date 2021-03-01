@@ -5,8 +5,6 @@ A macOS utility that ensures you never have to hear “Next slide, please” aga
 
 ## The Problem
 
-"Next slide, please."
-
 We've all been there. You're giving a remote presentation and it gets to a section that someone else is speaking to. But they're not in control of the Keynote, so they have to break rhythm (sometimes awkwardly) and ask you to go to the next slide.
 
 With Copresent, you can quickly and easily give your fellow presenters full control of their own story.
